@@ -1,0 +1,16 @@
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    fr=!sh -c 'git forest --all --sha | less -R'
+[push]
+	default = simple
+[rerere]
+	enabled = true
