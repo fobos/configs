@@ -3,6 +3,12 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# Git alias
+alias gti='git'
+
+alias diskspace_report="df -P -kHl"
+# File size
+alias fs="stat -f \"%z bytes\""
 
 if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
   source `brew --prefix`/etc/bash_completion.d/git-prompt.sh
@@ -11,8 +17,6 @@ fi
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
   source `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi
-
-#export PS1="\u@\h:\w\$ "
 
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWSTASHSTATE=1
