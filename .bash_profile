@@ -29,3 +29,6 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;33m\]$(_
 // Load nvm
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
+
+# .fzf
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
