@@ -19,7 +19,8 @@ function install_brew_packages() {
     brew install nvm
     brew install tmux
     brew install midnight-commander
-    #brew install fzf
+    brew install htop
+    brew install fzf
     brew install unrar
 
 
